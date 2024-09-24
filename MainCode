@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Clothing Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base.min.css" />
+</head>
+<body>
+    <header>
+        <h1>Your Clothing Shop</h1>
+        <div class="snipcart-summary">
+            <a href="#" class="snipcart-checkout">Checkout</a>
+        </div>
+    </header>
+    <main>
+        <section class="product">
+            <h2>Product Name 1</h2>
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <p>Price: $19.99</p>
+            <button class="snipcart-add-item"
+                    data-item-id="product-1"
+                    data-item-name="Product Name 1"
+                    data-item-price="19.99"
+                    data-item-url="index.html">
+                Add to Cart
+            </button>
+        </section>
+        <section class="product">
+            <h2>Product Name 2</h2>
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <p>Price: $29.99</p>
+            <button class="snipcart-add-item"
+                    data-item-id="product-2"
+                    data-item-name="Product Name 2"
+                    data-item-price="29.99"
+                    data-item-url="index.html">
+                Add to Cart
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Clothing Shop</p>
+    </footer>
+</body>
+</html>
