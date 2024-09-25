@@ -38,7 +38,7 @@
     </main>
 
     <footer>
-        <p>© 2024 Your Shop Name. All rights reserved.</p>
+        <p>© 2024 Islamic Clothing Shop. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
